@@ -12,8 +12,7 @@ pinMode(echoPin, INPUT);
 Serial.begin(9600); 
 pinMode(buzzer, OUTPUT); 
 pinMode(light, OUTPUT); 
-Serial.println("Annamalai University BE CSE 2022 "); // print some text in 
-Serial Monitor 
+Serial.println("Annamalai University BE CSE 2022 ");
 Serial.println("Distance Measure Program"); 
 } 
 
