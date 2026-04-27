@@ -23,7 +23,6 @@ Detected");Serial.println("");
 digitalWrite(light, HIGH); 
 tone(buzzer, 1000);  
 delay(500);  
-24  
 tone(buzzer, 500); 
 noTone(buzzer);  
 state = HIGH;  
