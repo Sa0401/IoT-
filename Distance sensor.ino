@@ -16,7 +16,7 @@ Serial.println("Annamalai University BE CSE 2022 "); // print some text in
 Serial Monitor 
 Serial.println("Distance Measure Program"); 
 } 
-12  
+
 void loop() 
 { digitalWrite(trigPin, 
 LOW); 
@@ -42,7 +42,7 @@ tone(buzzer, 500); noTone(buzzer);
 // Stop sound... 
 } 
 else if (distance >=11 && distance <=50) 
-13  
+
 { 
 Serial.println("Near Range"); 
 digitalWrite(light2, HIGH); 
